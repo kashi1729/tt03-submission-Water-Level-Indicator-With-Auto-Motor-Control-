@@ -25,8 +25,8 @@ documentation:
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works:
   First 4 flip flop uses as synchroniser.
-  Total four state define as full,Half1,Half2,Empty. 
-  These four state mapped with 00, 01,10,11 and further it  mapped with 4 Led. 
+  Total four state define as full  Half1  Half2  Empty. 
+  These four state mapped with 00  01  10  11 and further it  mapped with 4 Led. 
   Logic circuits design to control the states using D-flip flop.
   Another Logic design with help of one D flip flop to control motor. 
   Motor only start when it goes to last stage and it OFF only when water level of tank full. 
