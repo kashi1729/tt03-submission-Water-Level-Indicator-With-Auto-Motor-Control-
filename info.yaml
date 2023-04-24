@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id: 362788954641333249 # If using wokwi, set this to your project's ID
+wokwi_id: 362788954641333249 # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -23,29 +23,26 @@ documentation:
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   description:  "As water level of tank decreases/increases LED glow according to it.when water level touches the last then motor start and run until full the tank."      # Short description of what your project does
 # Longer description of how the project works. You can use standard markdown format.
-  how_it_works: |
-      Explain how your project works
- First 4 flip flop uses as synchroniser.
- Total four state define as full , Half1 , Half2, Empty. 
- These four state mapped with 00, 01,10,11 and further it  mapped with 4 Led. 
- Logic circuits design to control the states using D-flip flop.
- another Logic design with help of one D flip flop to control motor. 
- motor only start when it goes to last stage and it OFF only when water level of tank full. 
+  how_it_works:
+  First 4 flip flop uses as synchroniser.
+  Total four state define as full,Half1,Half2,Empty. 
+  These four state mapped with 00, 01,10,11 and further it  mapped with 4 Led. 
+  Logic circuits design to control the states using D-flip flop.
+  Another Logic design with help of one D flip flop to control motor. 
+  Motor only start when it goes to last stage and it OFF only when water level of tank full. 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
       Explain how to test your project:
-      
       it have 3 input 
       clock 
       input A 
       input B 
- 
  Total 5 output 
  out1 -- connect to red Led (Full)
  out2 -- connect to yellow1 Led (Half1)
  out3 -- connect to yellow2 Led (Half2)
  out4 -- connect to Red Led (Empty)
- out5 -- connect to Red Led (moto)
+ out5 -- connect to Red Led (moto)    
       
   Testing Table : 
   
