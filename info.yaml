@@ -37,26 +37,26 @@ documentation:
       clock 
       input A 
       input B 
- Total 5 output 
- out1 -- connect to red Led (Full)
- out2 -- connect to yellow1 Led (Half1)
- out3 -- connect to yellow2 Led (Half2)
- out4 -- connect to Red Led (Empty)
- out5 -- connect to Red Led (moto)    
+       Total 5 output 
+       out1 -- connect to red Led (Full)
+       out2 -- connect to yellow1 Led (Half1)
+       out3 -- connect to yellow2 Led (Half2)
+       out4 -- connect to Red Led (Empty)
+       out5 -- connect to Red Led (moto)    
       
   Testing Table : 
   
-  |clock     | input--A | input --B | Out-1 | Out-2 |Out-3  |Out-4 |Out-5 |
-  |-----     |----------|-----------|-------|-------|------ |------|------|
-  |  5-5k    |   0      |     0     |  1    |  0    |   0   |  0   |  0   |
-  |  5-5k    |   0      |     1     |  0    |  1    |   0   |  0   |  0   |
-  |  5-5k    |   1      |     0     |  0    |  0    |   1   |  0   |  0   |
-  |  5-5k    |   1      |     1     |  0    |  0    |   0   |  1   |  1   | 
-  |  5-5k    |   1      |     0     |  0    |  0    |   1   |  0   |  1   |
-  |  5-5k    |   0      |     1     |  0    |  1    |   0   |  0   |  1   |  
-  |  5-5k    |   0      |     0     |  1    |  0    |   0   |  0   |  0   |
+              |clock     | input--A | input --B | Out-1 | Out-2 |Out-3  |Out-4 |Out-5 |
+              |-----     |----------|-----------|-------|-------|------ |------|------|
+              |  5-5k    |   0      |     0     |  1    |  0    |   0   |  0   |  0   |
+              |  5-5k    |   0      |     1     |  0    |  1    |   0   |  0   |  0   |
+              |  5-5k    |   1      |     0     |  0    |  0    |   1   |  0   |  0   |
+              |  5-5k    |   1      |     1     |  0    |  0    |   0   |  1   |  1   | 
+              |  5-5k    |   1      |     0     |  0    |  0    |   1   |  0   |  1   |
+              |  5-5k    |   0      |     1     |  0    |  1    |   0   |  0   |  1   |  
+              |  5-5k    |   0      |     0     |  1    |  0    |   0   |  0   |  0   |
   
- ** SEQUENCE MATTER 
+              ** SEQUENCE MATTER 
 # A description of what the inputs do
   inputs:               
     - clock 
