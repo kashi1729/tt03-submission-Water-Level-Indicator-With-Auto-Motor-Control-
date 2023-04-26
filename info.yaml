@@ -62,11 +62,11 @@ documentation:
           - clock 
           - input A binary input
           - input B binary input
-          none
-          none
-          none
-          none
-          none
+          - none
+          - none
+          - none
+          - none
+          - none
 # A description of what the outputs do
   outputs:
           - segment a -- Red Led (Full) 
